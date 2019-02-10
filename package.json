@@ -1,0 +1,17 @@
+{
+  "name": "test-transcrypt-webpack",
+  "version": "1.0.0",
+  "description": "Example transcrypt + webpack module",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "webpack-cli"
+  },
+  "devDependencies": {
+    "autoprefixer": "^9.4.7",
+    "extract-text-webpack-plugin": "^4.0.0-beta.0",
+    "py-loader": "^0.3.1",
+    "webpack": "^4.29.3",
+    "webpack-cli": "^3.2.3"
+  }
+}
