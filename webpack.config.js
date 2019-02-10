@@ -15,14 +15,20 @@ module.exports = {
   },
   entry: './webpack_entry.py',
   output: {
-    filename: 'todos.js',
-    path: path.resolve(__dirname, 'todos/static')
+    filename: 'main.js',
+    path: path.resolve(__dirname)
+  },
+  resolve: {
+    alias: {
+      '.': path.resolve(__dirname, '__target__')
+    },
+    extensions: ['.js', '.py']
   },
   module: {
     rules: [
       {
         test: /\.py$/,
-        loader: 'py-loader',
+        loader: 'py-loader-jpic',
         options: {
           compiler: 'transcrypt'
         }

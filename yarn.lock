@@ -960,6 +960,11 @@ extend-shallow@^3.0.0, extend-shallow@^3.0.2:
     assign-symbols "^1.0.0"
     is-extendable "^1.0.1"
 
+extend@^3.0.1:
+  version "3.0.2"
+  resolved "https://registry.yarnpkg.com/extend/-/extend-3.0.2.tgz#f8b1136b4071fbd8eb140aff858b1019ec2915fa"
+  integrity sha512-fjquC59cD7CyW6urNXK0FBufkZcoiGG80wTuPujX590cB5Ttln20E2UB4S/WARVqhXffZl2LNgS+gQdPIIim/g==
+
 extglob@^2.0.4:
   version "2.0.4"
   resolved "https://registry.yarnpkg.com/extglob/-/extglob-2.0.4.tgz#ad00fe4dc612a9232e8718711dc5cb5ab0285543"
@@ -2164,11 +2169,12 @@ punycode@^2.1.0:
   resolved "https://registry.yarnpkg.com/punycode/-/punycode-2.1.1.tgz#b58b010ac40c22c5657616c8d2c2c02c7bf479ec"
   integrity sha512-XRsRjdf+j5ml+y/6GKHPZbrF/8p2Yga0JPtdqTIY2Xe5ohJPD9saDJJLPvp9+NSBprVvevdXZybnj2cv8OEd0A==
 
-py-loader@^0.3.1:
+py-loader-jpic@^0.3.1:
   version "0.3.1"
-  resolved "https://registry.yarnpkg.com/py-loader/-/py-loader-0.3.1.tgz#8d871518354edf3f4a102333fa6bc92fd8e0085c"
-  integrity sha512-C9gYo9Yiinpw/Qm8G0Uu43KRh0wk1uLZ/YO4OLfar+6oW1lvRx6adf8tqtqOY+gZmeXGAKLu+AoRn+FKaBxxrA==
+  resolved "https://registry.yarnpkg.com/py-loader-jpic/-/py-loader-jpic-0.3.1.tgz#3954215d86da6ee06088e571593138075a095a2b"
+  integrity sha512-NVq9vf3OnZmt8DYU3cioa7oU0lL0hCZr7Zlee5WA8jVURhCE+20EfmBkyWfb3kuN7afg+gQAyWsos322k0A4eg==
   dependencies:
+    extend "^3.0.1"
     loader-utils "^1.1.0"
     node-cmd "^3.0.0"
 
